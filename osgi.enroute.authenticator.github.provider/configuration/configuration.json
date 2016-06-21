@@ -1,4 +1,4 @@
-[
+I[
    { 
    	  "comment":							"Twitter Self Authorization",
       "service.factoryPid":					"osgi.enroute.oauth2.basic",

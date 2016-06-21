@@ -1,0 +1,15 @@
+#
+# OSGI ENROUTE VAADIN API
+#
+
+Bundle-Description: \
+	OSGI ENROUTE VAADIN API \
+	
+Export-Package:  \
+	osgi.enroute.vaadin.api, \
+	osgi.enroute.vaadin.api.dto
+
+Require-Capability: \
+	compile-only
+
+-includeresource: {readme.md}

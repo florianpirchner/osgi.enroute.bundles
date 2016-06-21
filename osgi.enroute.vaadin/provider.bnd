@@ -1,0 +1,14 @@
+#
+# OSGI ENROUTE VAADIN	BUNDLE 
+#
+
+Bundle-Description: \
+	The provider bundle for osgi.enroute.vaadin.
+	
+Export-Package:  \
+	osgi.enroute.vaadin.api
+
+Private-Package:  \
+	osgi.enroute.vaadin.provider
+
+-includeresource: {readme.md}
