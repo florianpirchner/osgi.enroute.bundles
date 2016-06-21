@@ -14,6 +14,10 @@ import osgi.enroute.vaadin.api.Application;
 import osgi.enroute.vaadin.api.Configuration;
 import osgi.enroute.vaadin.api.dto.ApplicationConfigDTO;
 
+/**
+ * Sample application to demo how to create a Vaadin Application including
+ * Config Admin support.
+ */
 @Designate(ocd = Configuration.class)
 @RequireConfigurerExtender
 @Component(name = "osgi.enroute.example.vaadin.addressbook", configurationPolicy = ConfigurationPolicy.REQUIRE)
