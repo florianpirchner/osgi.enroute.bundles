@@ -1,0 +1,11 @@
+#
+# OSGI ENROUTE VAADIN	BUNDLE 
+#
+
+Bundle-Description: \
+	Base elements for Vaadin to be used with OSGi.
+	
+Export-Package: \
+	osgi.enroute.vaadin.runtime.*
+
+-includeresource: {readme.md}

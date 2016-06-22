@@ -12,6 +12,8 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
+import osgi.enroute.vaadin.runtime.data.DTOContainer;
+
 /**
  * User Interface written in Java.
  * <p>

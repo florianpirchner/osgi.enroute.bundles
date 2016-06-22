@@ -8,6 +8,8 @@ import com.vaadin.ui.*;
 import com.vaadin.ui.Notification.Type;
 import com.vaadin.ui.themes.ValoTheme;
 
+import osgi.enroute.vaadin.runtime.data.DTOItem;
+
 /* Create custom UI Components.
  *
  * Create your own Vaadin components by inheritance and composition.

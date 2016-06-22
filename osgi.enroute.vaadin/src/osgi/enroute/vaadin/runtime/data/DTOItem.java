@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.example;
+package osgi.enroute.vaadin.runtime.data;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -7,9 +7,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
+import org.osgi.dto.DTO;
+
 import com.vaadin.data.Item;
 import com.vaadin.data.Property;
 
+/**
+ * Vaadin {@link Item} to be used with OSGi {@link DTO OSGi DTOs}.
+ */
 @SuppressWarnings( {"rawtypes", "serial", "unchecked"})
 public class DTOItem<T> implements Item {
 	private static final long serialVersionUID = 1L;

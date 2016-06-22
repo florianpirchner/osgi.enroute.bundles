@@ -26,5 +26,6 @@ Export-Package:  \
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.api)',\
+	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.runtime)',\
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.example)',\
 	osgi.identity;filter:='(osgi.identity=commons-collections__commons-collections)'
