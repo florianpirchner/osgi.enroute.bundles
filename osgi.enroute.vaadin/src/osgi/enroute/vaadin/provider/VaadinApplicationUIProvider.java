@@ -14,7 +14,18 @@ public class VaadinApplicationUIProvider extends UIProvider {
 
 	public UI createInstance(UICreateEvent event) {
 		LocalVaadinServletService service = (LocalVaadinServletService) event.getRequest().getService();
-		return service.getApplication().getInstance(event);
+		UI ui = service.getApplication().getInstance(event);
+
+		applyPageTitle(service, ui);
+		
+		return ui;
+	}
+
+	private void applyPageTitle(LocalVaadinServletService service, UI ui) {
+		String title = service.getApplication().getApplicationConfigDto().pageTitle;
+		if (title != null && !title.equals("")) {
+			ui.getPage().setTitle(title);
+		}
 	}
 
 	@Override

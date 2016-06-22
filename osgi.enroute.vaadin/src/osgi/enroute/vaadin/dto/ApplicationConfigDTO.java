@@ -73,6 +73,7 @@ public class ApplicationConfigDTO extends DTO {
 		this.alias = config.alias();
 		this.description = config.description();
 		this.heartbeatInterval = config.heartbeatInterval();
+		this.pageTitle = config.pageTitle();
 		this.productionMode = config.productionMode();
 		this.pushMode = config.pushMode();
 		this.pushTransport = config.pushTransport();
