@@ -5,7 +5,7 @@ import org.osgi.annotation.versioning.ConsumerType;
 import com.vaadin.server.UICreateEvent;
 import com.vaadin.ui.UI;
 
-import osgi.enroute.vaadin.api.dto.ApplicationConfigDTO;
+import osgi.enroute.vaadin.dto.ApplicationConfigDTO;
 
 /**
  * A service interface for bundles that want to create a Vaadin application. The

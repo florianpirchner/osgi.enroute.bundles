@@ -12,7 +12,7 @@ import com.vaadin.server.UICreateEvent;
 import osgi.enroute.configurer.api.RequireConfigurerExtender;
 import osgi.enroute.vaadin.api.Application;
 import osgi.enroute.vaadin.api.Configuration;
-import osgi.enroute.vaadin.api.dto.ApplicationConfigDTO;
+import osgi.enroute.vaadin.dto.ApplicationConfigDTO;
 
 /**
  * Sample application to demo how to create a Vaadin Application including

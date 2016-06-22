@@ -39,15 +39,15 @@ public class VaadinOSGiServlet extends VaadinServlet {
 	private void fillParameters(Properties initParameters) {
 		String widgetSet = (String) ref.getProperty(Application.SERVICE_PROPERY_WIDGETSET);
 		if (widgetSet != null && !widgetSet.trim().isEmpty()) {
-			initParameters.setProperty(Constants.PARAMETER_WIDGETSET, widgetSet);
+			initParameters.setProperty(Constants.PARAMETER_WIDGETSET, widgetSet.trim());
 		}
 		Boolean productionMode = (Boolean) ref.getProperty(Application.SERVICE_PROPERY_PRODUCTION_MODE);
 		initParameters.setProperty(SERVLET_PARAMETER_PRODUCTION_MODE,
 				productionMode != null ? productionMode.toString() : "false");
 
-		PushMode pushMode = (PushMode) ref.getProperty(Application.SERVICE_PROPERY_PUSH_MODE);
-		if (pushMode != null) {
-			initParameters.setProperty(SERVLET_PARAMETER_PUSH_MODE, pushMode.toString());
+		String pushMode = (String) ref.getProperty(Application.SERVICE_PROPERY_PUSH_MODE);
+		if (pushMode != null && !pushMode.trim().equals("")) {
+			initParameters.setProperty(SERVLET_PARAMETER_PUSH_MODE, pushMode.trim());
 		}
 
 		int cacheTime = (int) ref.getProperty(Application.SERVICE_PROPERY_RESOURCE_CACHE_TIME);

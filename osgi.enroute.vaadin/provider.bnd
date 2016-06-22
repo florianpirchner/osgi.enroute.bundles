@@ -5,8 +5,9 @@
 Bundle-Description: \
 	The provider bundle for osgi.enroute.vaadin.
 	
-Export-Package:  \
-	osgi.enroute.vaadin.api
+Export-Package: \
+	osgi.enroute.vaadin.api,\
+	osgi.enroute.vaadin.dto
 
 Private-Package:  \
 	osgi.enroute.vaadin.provider

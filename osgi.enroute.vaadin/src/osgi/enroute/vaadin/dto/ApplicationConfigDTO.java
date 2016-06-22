@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.api.dto;
+package osgi.enroute.vaadin.dto;
 
 import org.osgi.dto.DTO;
 

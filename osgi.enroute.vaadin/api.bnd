@@ -7,7 +7,7 @@ Bundle-Description: \
 	
 Export-Package:  \
 	osgi.enroute.vaadin.api, \
-	osgi.enroute.vaadin.api.dto
+	osgi.enroute.vaadin.dto
 
 Require-Capability: \
 	compile-only

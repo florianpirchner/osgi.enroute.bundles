@@ -3,7 +3,7 @@
      "service.pid":"osgi.enroute.example.vaadin.addressbook",
      "description":"Sample to demo how to run Vaadin UI based on enRoute",
      "alias":"/addr",
-     "title":"enRoute Vaadin Addressbook example"
+     "title":"enRoute Vaadin Addressbook example",
      "theme":"valo"
   }
 ]
