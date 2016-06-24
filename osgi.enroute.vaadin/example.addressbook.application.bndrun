@@ -4,7 +4,7 @@
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.provider)',\
-	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.example)',\
+	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.example.addressbook.application)',\
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.webconsole.xray.provider)',\
 	osgi.identity;filter:='(osgi.identity=com.vaadin.client-compiled)',\
 	osgi.identity;filter:='(osgi.identity=com.vaadin.themes)',\
@@ -46,7 +46,7 @@
 	osgi.enroute.executor.simple.provider;version=snapshot,\
 	osgi.enroute.gogo.shell.provider;version=snapshot,\
 	osgi.enroute.logger.simple.provider;version=snapshot,\
-	osgi.enroute.vaadin.example;version=snapshot,\
+	osgi.enroute.vaadin.example.addressbook.application;version=snapshot,\
 	osgi.enroute.vaadin.provider;version=snapshot,\
 	osgi.enroute.vaadin.runtime;version=snapshot,\
 	osgi.enroute.web.simple.provider;version='[1.3.3,1.3.4)',\
