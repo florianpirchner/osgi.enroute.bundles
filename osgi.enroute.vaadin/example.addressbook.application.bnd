@@ -19,13 +19,13 @@ JPM-Command:			addrssb
 	com.vaadin.server,\
 	com.vaadin.shared,\
 	org.jsoup,\
-	osgi.enroute.vaadin.example;version=latest,\
+	osgi.enroute.vaadin.example.addressbook.application;version=latest,\
 	osgi.enroute.vaadin.provider
 
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.provider)',\
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.runtime)',\
-	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.example)',\
+	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.example.addressbook.application)',\
 	osgi.identity;filter:='(osgi.identity=commons-collections__commons-collections)'
 
 Import-Package: *
