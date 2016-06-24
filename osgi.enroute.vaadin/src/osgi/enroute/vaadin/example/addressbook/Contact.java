@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.example;
+package osgi.enroute.vaadin.example.addressbook;
 
 import java.util.Date;
 

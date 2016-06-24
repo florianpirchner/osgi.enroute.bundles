@@ -4,7 +4,7 @@
 
 Bundle-Version:					0.8.0.${tstamp}
 Bundle-Description: 				\
-	Provides an OSGi service handler to work with Vaadin.
+	A sub-bundle abled bnd.file for Vaadin stuff 
 	
 -buildpath:  \
 	osgi.enroute.base.api;version=1.0,\

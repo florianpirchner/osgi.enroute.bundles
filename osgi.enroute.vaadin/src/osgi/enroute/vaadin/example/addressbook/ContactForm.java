@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.example;
+package osgi.enroute.vaadin.example.addressbook;
 
 import com.vaadin.data.Item;
 import com.vaadin.data.fieldgroup.BeanFieldGroup;

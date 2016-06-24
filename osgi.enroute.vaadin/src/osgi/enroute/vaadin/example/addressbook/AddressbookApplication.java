@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.example;
+package osgi.enroute.vaadin.example.addressbook;
 
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;

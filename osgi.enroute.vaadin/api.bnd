@@ -3,7 +3,7 @@
 #
 
 Bundle-Description: \
-	OSGI ENROUTE VAADIN API \
+	OSGI enRoute Vaadin API and DTOs \
 	
 Export-Package:  \
 	osgi.enroute.vaadin.api, \
@@ -12,4 +12,4 @@ Export-Package:  \
 Require-Capability: \
 	compile-only
 
--includeresource: {readme.md}
+-includeresource: {api_readme.md}

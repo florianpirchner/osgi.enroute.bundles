@@ -3,9 +3,9 @@
 #
 
 Bundle-Description: \
-	Base elements for Vaadin to be used with OSGi.
-	
+	Base elements for Vaadin applications to be used with OSGi.
+
 Export-Package: \
 	osgi.enroute.vaadin.runtime.*
 
--includeresource: {readme.md}
+-includeresource: {runtime_readme.md}

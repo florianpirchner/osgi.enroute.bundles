@@ -3,7 +3,7 @@
 #
 
 Bundle-Description: \
-	The provider bundle for osgi.enroute.vaadin.
+	The provider bundle for osgi.enroute.vaadin. It starts up the Vaadin application by the registered Application instance.
 	
 Export-Package: \
 	osgi.enroute.vaadin.api,\
@@ -12,4 +12,4 @@ Export-Package: \
 Private-Package:  \
 	osgi.enroute.vaadin.provider
 
--includeresource: {readme.md}
+-includeresource: {provider_readme.md}
