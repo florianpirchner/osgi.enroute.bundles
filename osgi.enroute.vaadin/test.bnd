@@ -1,0 +1,34 @@
+#
+# OSGI ENROUTE EXAMPLES VAADIN ADDRESSBOOK APPLICATION APPLICATION
+#
+
+Bundle-Description: \
+	Tests for the vaadin addon.
+
+Private-Package: osgi.enroute.vaadin.provider.test
+
+-include: example.addressbook.application.bndrun
+
+Export-Package:  \
+	osgi.enroute.vaadin.api
+
+-includeresource: \
+	{readme.md}, \
+	{configuration=configuration}
+
+-buildpath: \
+	osgi.enroute.base.api,\
+	com.vaadin.server,\
+	com.vaadin.shared,\
+	org.jsoup,\
+	osgi.enroute.vaadin.api;version=latest,\
+	osgi.enroute.vaadin.runtime.data;version=latest,\
+	osgi.enroute.junit.wrapper
+
+-runrequires: \
+	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.api)',\
+	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.runtime)',\
+	osgi.identity;filter:='(osgi.identity=commons-collections__commons-collections)'
+	
+Import-Package: \
+	*

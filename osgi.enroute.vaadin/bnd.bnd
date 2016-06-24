@@ -10,7 +10,8 @@ Bundle-Description: 				\
 	osgi.enroute.base.api;version=1.0,\
 	com.vaadin.server,\
 	com.vaadin.shared,\
-	org.jsoup
+	org.jsoup,\
+	biz.aQute.junit
 
 -includeresource: {readme.md}
 

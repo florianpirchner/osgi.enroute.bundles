@@ -2,12 +2,6 @@
 # OSGI ENROUTE VAADIN	LAUNCH SPECIFICATION 
 #
 
-
-Bundle-Version:				1.0.0.${tstamp}
-Bundle-SymbolicName:		osgi.enroute.vaadin.launch
-JPM-Command:				vaadin
-
-
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.provider)',\
 	osgi.identity;filter:='(osgi.identity=osgi.enroute.vaadin.example)',\

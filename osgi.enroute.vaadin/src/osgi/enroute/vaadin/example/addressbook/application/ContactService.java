@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.example.addressbook;
+package osgi.enroute.vaadin.example.addressbook.application;
 
 import java.util.ArrayList;
 import java.util.Calendar;
