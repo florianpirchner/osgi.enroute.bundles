@@ -29,7 +29,7 @@ test-cases: 			${classes;NAMED;*Test}
 	        name                =       Central; \
 	        location            =       ~/.bnd/shacache; \
 	        index               =       ${build}/central.json
-	        
+
 -plugin.6.Local: \
         aQute.bnd.deployer.repository.LocalIndexedRepo; \
             name                =       Local ; \

@@ -7,7 +7,6 @@ encoding//src/osgi/enroute/vaadin/api/package-info.java=UTF-8
 encoding//src/osgi/enroute/vaadin/example/addressbook/package-info.java=UTF-8
 encoding//src/osgi/enroute/vaadin/provider/package-info.java=UTF-8
 encoding//src/osgi/enroute/vaadin/runtime/data/package-info.java=UTF-8
-encoding//test/osgi/enroute/vaadin/provider/VaadinImplTest.java=UTF-8
 encoding/api.bnd=UTF-8
 encoding/bnd.bnd=UTF-8
 encoding/debug.bndrun=UTF-8

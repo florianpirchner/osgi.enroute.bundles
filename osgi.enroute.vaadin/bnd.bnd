@@ -6,16 +6,14 @@ Bundle-Version:					0.8.0.${tstamp}
 Bundle-Description: 				\
 	A sub-bundle abled bnd.file for Vaadin stuff 
 	
--buildpath:  \
+-buildpath: \
 	osgi.enroute.base.api;version=1.0,\
-	com.vaadin.server,\
-	com.vaadin.shared,\
-	org.jsoup
+	org.jsoup,\
+	com.vaadin.themes;version=7.6.8,\
+	com.vaadin.server;version=7.6.8,\
+	com.vaadin.shared;version=7.6.8
 
 -includeresource: {readme.md}
-
--testpath: \
-	osgi.enroute.junit.wrapper;version=4.12
 
 -sub:  \
 	*.bnd
