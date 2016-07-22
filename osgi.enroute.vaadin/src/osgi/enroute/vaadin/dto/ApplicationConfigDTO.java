@@ -2,9 +2,9 @@ package osgi.enroute.vaadin.dto;
 
 import org.osgi.dto.DTO;
 
-import osgi.enroute.vaadin.api.Configuration;
 import osgi.enroute.vaadin.api.PushMode;
 import osgi.enroute.vaadin.api.PushTransport;
+import osgi.enroute.vaadin.example.addressbook.application.Configuration;
 
 /**
  * This DTO contains information about the current configuration of the

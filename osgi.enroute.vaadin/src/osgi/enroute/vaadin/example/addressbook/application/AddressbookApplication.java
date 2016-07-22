@@ -1,4 +1,4 @@
-package osgi.enroute.vaadin.example.addressbook;
+package osgi.enroute.vaadin.example.addressbook.application;
 
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
@@ -11,7 +11,6 @@ import com.vaadin.server.UICreateEvent;
 
 import osgi.enroute.configurer.api.RequireConfigurerExtender;
 import osgi.enroute.vaadin.api.Application;
-import osgi.enroute.vaadin.api.Configuration;
 import osgi.enroute.vaadin.dto.ApplicationConfigDTO;
 
 /**
