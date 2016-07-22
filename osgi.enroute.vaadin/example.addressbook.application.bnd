@@ -3,7 +3,7 @@
 #
 
 Bundle-Description: \
-	This is the OSGI ENROUTE EXAMPLES VAADIN ADDRESSBOOK APPLICATION bundle.
+	The OSGI ENROUTE EXAMPLES VAADIN ADDRESSBOOK APPLICATION bundle.
 
 Private-Package: osgi.enroute.vaadin.example.addressbook.application
 

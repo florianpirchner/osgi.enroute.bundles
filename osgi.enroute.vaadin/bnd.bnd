@@ -4,7 +4,7 @@
 
 Bundle-Version:					0.8.0.${tstamp}
 Bundle-Description: 				\
-	A sub-bundle abled bnd.file for Vaadin stuff 
+	A sub-bundle abled bnd.file for Vaadin 
 	
 -buildpath: \
 	osgi.enroute.base.api;version=1.0,\

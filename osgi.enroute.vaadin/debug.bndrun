@@ -2,7 +2,7 @@
 # OSGI ENROUTE VAADIN	DEBUG LAUNCH SPECFICATION 
 #
 
--include: ~osgi.enroute.vaadin.example.addressbook.bndrun
+-include: ~example.addressbook.application.bndrun
 
 -runrequires.debug:  \
 	${debug-bundles}
