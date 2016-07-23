@@ -1,10 +1,7 @@
-package osgi.enroute.vaadin.example.addressbook.application;
+package osgi.enroute.vaadin.api;
 
 import org.osgi.service.metatype.annotations.AttributeDefinition;
 import org.osgi.service.metatype.annotations.ObjectClassDefinition;
-
-import osgi.enroute.vaadin.api.PushMode;
-import osgi.enroute.vaadin.api.PushTransport;
 
 @ObjectClassDefinition(name = "Vaadin Application config", description = "Configures the Vaadin application")
 public @interface Configuration {

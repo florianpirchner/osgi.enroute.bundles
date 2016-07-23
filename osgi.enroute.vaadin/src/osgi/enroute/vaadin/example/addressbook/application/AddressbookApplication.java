@@ -11,6 +11,7 @@ import com.vaadin.server.UICreateEvent;
 
 import osgi.enroute.configurer.api.RequireConfigurerExtender;
 import osgi.enroute.vaadin.api.Application;
+import osgi.enroute.vaadin.api.Configuration;
 import osgi.enroute.vaadin.dto.ApplicationConfigDTO;
 
 /**
