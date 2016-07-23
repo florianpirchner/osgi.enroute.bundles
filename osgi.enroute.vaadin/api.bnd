@@ -12,4 +12,4 @@ Export-Package:  \
 Require-Capability: \
 	compile-only
 
--includeresource: {api_readme.md}
+-includeresource: {readmes/api_readme.md}

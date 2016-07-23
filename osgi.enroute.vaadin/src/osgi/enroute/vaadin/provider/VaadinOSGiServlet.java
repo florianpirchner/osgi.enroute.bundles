@@ -14,7 +14,6 @@ import com.vaadin.server.VaadinServletService;
 import com.vaadin.ui.UI;
 
 import osgi.enroute.vaadin.api.Application;
-import osgi.enroute.vaadin.api.PushMode;
 
 @SuppressWarnings("serial")
 @VaadinServletConfiguration(productionMode = false, ui = UI.class)

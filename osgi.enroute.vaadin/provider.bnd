@@ -12,4 +12,4 @@ Export-Package: \
 Private-Package:  \
 	osgi.enroute.vaadin.provider
 
--includeresource: {provider_readme.md}
+-includeresource: {readmes/provider_readme.md}

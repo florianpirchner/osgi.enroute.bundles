@@ -15,7 +15,7 @@ import org.osgi.service.http.NamespaceException;
 
 import osgi.enroute.vaadin.api.Application;
 
-@Component(name = "osgi.enroute.examples.vaadin.provider")
+@Component(name = "osgi.enroute.vaadin.provider")
 public class VaadinApplicationHandler {
 	final ConcurrentHashMap<String, VaadinOSGiServlet> servlets = new ConcurrentHashMap<>();
 	private HttpService http;

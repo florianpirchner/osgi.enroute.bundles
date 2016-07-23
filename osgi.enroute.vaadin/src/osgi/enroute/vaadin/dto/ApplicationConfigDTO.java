@@ -4,7 +4,6 @@ import org.osgi.dto.DTO;
 
 import osgi.enroute.vaadin.api.PushMode;
 import osgi.enroute.vaadin.api.PushTransport;
-import osgi.enroute.vaadin.example.addressbook.application.Configuration;
 
 /**
  * This DTO contains information about the current configuration of the
@@ -67,19 +66,6 @@ public class ApplicationConfigDTO extends DTO {
 
 	public ApplicationConfigDTO() {
 
-	}
-
-	public ApplicationConfigDTO(Configuration config) {
-		this.alias = config.alias();
-		this.description = config.description();
-		this.heartbeatInterval = config.heartbeatInterval();
-		this.pageTitle = config.pageTitle();
-		this.productionMode = config.productionMode();
-		this.pushMode = config.pushMode();
-		this.pushTransport = config.pushTransport();
-		this.resourceCacheTime = config.resourceCacheTime();
-		this.theme = config.theme();
-		this.widgetset = config.widgetset();
 	}
 
 }

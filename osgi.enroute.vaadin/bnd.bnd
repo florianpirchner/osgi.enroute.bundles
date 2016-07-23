@@ -8,10 +8,11 @@ Bundle-Description: 				\
 	
 -buildpath: \
 	osgi.enroute.base.api;version=1.0,\
-	org.jsoup,\
 	com.vaadin.themes;version=7.6.8,\
 	com.vaadin.server;version=7.6.8,\
-	com.vaadin.shared;version=7.6.8
+	com.vaadin.shared;version=7.6.8,\
+	org.jsoup;version=1.9,\
+	com.vaadin.client-compiled;version=7.6
 
 -includeresource: {readme.md}
 

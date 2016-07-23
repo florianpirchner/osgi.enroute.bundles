@@ -8,4 +8,4 @@ Bundle-Description: \
 Export-Package: \
 	osgi.enroute.vaadin.runtime.*
 
--includeresource: {runtime_readme.md}
+-includeresource: {readmes/runtime_readme.md}
